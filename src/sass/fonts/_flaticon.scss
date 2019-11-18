@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 17/11/2019 19:21
+    Creation date: 17/11/2019 21:30
     */
 
 @font-face {
@@ -38,15 +38,20 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
-  font-size: 20px;
   font-style: normal;
   margin-left: 20px;
+  //font-size: 20px;
 }
 
 .flaticon-fingerprint:before { content: "\f105"; }
 .flaticon-bird:before { content: "\f106"; }
 .flaticon-cupid:before { content: "\f107"; }
 .flaticon-heart:before { content: "\f108"; }
+.flaticon-time:before { content: "\f109"; }
+.flaticon-placeholder-filled-point:before { content: "\f10a"; }
+.flaticon-angle-arrow-pointing-to-right:before { content: "\f10b"; }
+.flaticon-refresh:before { content: "\f10c"; }
+.flaticon-delete:before { content: "\f10d"; }
 
 $font-timeline-bus: "\f100";
 $font-timeline-ring: "\f101";
@@ -57,3 +62,8 @@ $font-flaticon-fingerprint: "\f105";
 $font-flaticon-bird: "\f106";
 $font-flaticon-cupid: "\f107";
 $font-flaticon-heart: "\f108";
+$font-flaticon-time: "\f109";
+$font-flaticon-placeholder-filled-point: "\f10a";
+$font-flaticon-angle-arrow-pointing-to-right: "\f10b";
+$font-flaticon-refresh: "\f10c";
+$font-flaticon-delete: "\f10d";
